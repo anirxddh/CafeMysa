@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Mysa - Where Every Moment Feels Like Home</title>
+    <meta name="description" content="Cafe Mysa serves the best continental food and freshly brewed coffee in Ranchi. Experience comfort, taste, and warmth.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ===============================
+         LOADING SCREEN
+         =============================== -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <h1 class="loader-text">Johar!</h1>
+        </div>
+    </div>
+
+    <!-- ===============================
+         NAVIGATION
+         =============================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Cafe Mysa_Final-01.svg" alt="Cafe Mysa Logo">
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#signature" class="nav-link">Signature</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#info" class="nav-link">Info</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===============================
+         HERO SECTION
+         =============================== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Where Every Moment<br>Feels Like Home</h1>
+            <p class="hero-subtitle fade-in-delay">Experience the finest continental cuisine and freshly brewed coffee in Ranchi</p>
+            <a href="#menu" class="cta-button fade-in-delay-2">Explore Our Menu</a>
+        </div>
+        
+        <!-- Horizontal Scrolling Image Strip -->
+        <div class="image-strip-container">
+            <div class="image-strip" id="imageStrip">
+                <!-- Signature Dishes -->
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image pasta"></div>
+                    </div>
+                    <p class="strip-label">Pasta</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image pizza"></div>
+                    </div>
+                    <p class="strip-label">Pizza</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image breakfast"></div>
+                    </div>
+                    <p class="strip-label">English Breakfast</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image chicken"></div>
+                    </div>
+                    <p class="strip-label">Grilled Chicken</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image curry"></div>
+                    </div>
+                    <p class="strip-label">Green Thai Curry</p>
+                </div>
+                <!-- Signature Drinks -->
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image cappuccino"></div>
+                    </div>
+                    <p class="strip-label">Cappuccino</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image frappe"></div>
+                    </div>
+                    <p class="strip-label">Frappe</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image cold-brew"></div>
+                    </div>
+                    <p class="strip-label">Cold Brewed Coffee</p>
+                </div>
+                <div class="strip-item">
+                    <div class="strip-image">
+                        <div class="placeholder-image tea"></div>
+                    </div>
+                    <p class="strip-label">Herbal Tea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         ABOUT US SECTION
+         =============================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">About Cafe Mysa</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content reveal">
+                <p class="about-text">
+                    We are a cafe that serves the best continental food in town along with freshly brewed coffee. 
+                    Our target crowd is mostly the young generation, from age 14 to 45. We particularly attract 
+                    those in their twenties (21-30 age group) including students, couples, entrepreneurs, 
+                    employed professionals, and gym enthusiasts.
+                </p>
+                <p class="about-text">
+                    At Cafe Mysa, we believe that great food and exceptional coffee can transform ordinary moments 
+                    into extraordinary memories. Every dish is crafted with care, every cup is brewed to perfection, 
+                    and every guest is treated like family.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         SIGNATURE SECTION
+         =============================== -->
+    <section class="signature" id="signature">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">Our Signatures</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="signature-grid">
+                <!-- Signature Dishes -->
+                <div class="signature-column reveal">
+                    <h3 class="signature-subtitle">Signature Dishes</h3>
+                    <div class="signature-list">
+                        <div class="signature-item">
+                            <div class="signature-icon">🍝</div>
+                            <div class="signature-details">
+                                <h4>Pasta</h4>
+                                <p>Authentic Italian pasta cooked to perfection</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🍕</div>
+                            <div class="signature-details">
+                                <h4>Pizza</h4>
+                                <p>Wood-fired pizzas with fresh toppings</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🍳</div>
+                            <div class="signature-details">
+                                <h4>English Breakfast</h4>
+                                <p>Classic breakfast to start your day right</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🍗</div>
+                            <div class="signature-details">
+                                <h4>Grilled Chicken</h4>
+                                <p>Tender, juicy, and perfectly seasoned</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🍛</div>
+                            <div class="signature-details">
+                                <h4>Green Thai Curry</h4>
+                                <p>Authentic Thai flavors with aromatic herbs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Signature Drinks -->
+                <div class="signature-column reveal">
+                    <h3 class="signature-subtitle">Signature Drinks</h3>
+                    <div class="signature-list">
+                        <div class="signature-item">
+                            <div class="signature-icon">☕</div>
+                            <div class="signature-details">
+                                <h4>Cappuccino</h4>
+                                <p>Rich espresso with velvety steamed milk</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🥤</div>
+                            <div class="signature-details">
+                                <h4>Frappe</h4>
+                                <p>Iced coffee blended to smooth perfection</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">❄️</div>
+                            <div class="signature-details">
+                                <h4>Cold Brewed Coffee</h4>
+                                <p>Smooth, less acidic, naturally sweet</p>
+                            </div>
+                        </div>
+                        <div class="signature-item">
+                            <div class="signature-icon">🍵</div>
+                            <div class="signature-details">
+                                <h4>Herbal Tea</h4>
+                                <p>Calming blends for your wellness</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         MENU SECTION
+         =============================== -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">Explore Our Menu</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-card reveal">
+                    <div class="menu-card-icon">🌅</div>
+                    <h3>Breakfast Menu</h3>
+                    <p>Start your morning with our delightful breakfast selections</p>
+                    <a href="#" class="menu-button" data-menu="breakfast">View Menu</a>
+                </div>
+                
+                <div class="menu-card reveal">
+                    <div class="menu-card-icon">🍽️</div>
+                    <h3>Main Menu</h3>
+                    <p>Discover our full range of continental delicacies</p>
+                    <a href="#" class="menu-button" data-menu="main">View Menu</a>
+                </div>
+                
+                <div class="menu-card reveal">
+                    <div class="menu-card-icon">🌙</div>
+                    <h3>Dinner Menu</h3>
+                    <p>Evening specials and comfort food for your soul</p>
+                    <a href="#" class="menu-button" data-menu="dinner">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         CAFE INFO SECTION
+         =============================== -->
+    <section class="info-section" id="info">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">Visit Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-card reveal">
+                    <div class="info-icon">🕐</div>
+                    <h3>Opening Hours</h3>
+                    <div class="info-details">
+                        <p class="info-highlight">7:30 AM - 2:00 AM</p>
+                        <p class="info-subtext">Open every day</p>
+                    </div>
+                </div>
+                
+                <div class="info-card reveal">
+                    <div class="info-icon">👥</div>
+                    <h3>Serving Daily</h3>
+                    <div class="info-details">
+                        <p class="info-highlight">140+ People</p>
+                        <p class="info-subtext">Across 45 tables</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         DELIVERY PLATFORMS SECTION
+         =============================== -->
+    <section class="delivery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">Order Online</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle reveal">Get Cafe Mysa delivered to your doorstep</p>
+            </div>
+            
+            <div class="delivery-grid">
+                <a href="#" class="delivery-card reveal" data-platform="zomato">
+                    <div class="delivery-icon">🍴</div>
+                    <h3>Zomato</h3>
+                </a>
+                
+                <a href="#" class="delivery-card reveal" data-platform="swiggy">
+                    <div class="delivery-icon">🛵</div>
+                    <h3>Swiggy</h3>
+                </a>
+                
+                <a href="#" class="delivery-card reveal" data-platform="ezdiner">
+                    <div class="delivery-icon">🍽️</div>
+                    <h3>EZDiner</h3>
+                </a>
+                
+                <a href="#" class="delivery-card reveal" data-platform="district">
+                    <div class="delivery-icon">📱</div>
+                    <h3>District</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         FOOTER / CONTACT SECTION
+         =============================== -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="Cafe Mysa_Final-01.svg" alt="Cafe Mysa Logo" class="footer-logo">
+                    <p class="footer-tagline">Where every moment feels like home</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Location</h4>
+                    <p class="footer-address">
+                        Cafe Mysa, 2nd Floor<br>
+                        Above WOW Detailing<br>
+                        VIP Road, Dibdih Bypass<br>
+                        Ranchi, Jharkhand - 834002
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <a href="https://wa.me/9263854720" class="whatsapp-button" target="_blank" rel="noopener">
+                        <span class="whatsapp-icon">📱</span>
+                        WhatsApp Us!
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Google Maps Embed -->
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.8753!2d85.3089!3d23.3441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDIwJzM4LjgiTiA4NcKwMTgnMzIuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cafe Mysa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

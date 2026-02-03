@@ -652,7 +652,11 @@ section {
     height: 60px;
     width: auto;
     margin-bottom: 1rem;
-    filter: brightness(0) invert(1);
+    filter: brightness(1) invert(0);
+    /* NEW: Add background square */
+    background-color: #d3daa3;
+    padding: 1rem;
+    box-sizing: content-box;
 }
 
 .footer-tagline {

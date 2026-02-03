@@ -682,8 +682,9 @@ section {
     transform: scale(1.05);
 }
 
-.whatsapp-icon {
-    font-size: 1.25rem;
+.whatsapp-icon img {
+  width: 26px;
+  height: 26px;
 }
 
 .map-container {
@@ -803,11 +804,6 @@ section {
     .footer-logo {
         margin: 0 auto 1rem;
     }
-}
-
-.whatsapp-icon img {
-  width: 26px;
-  height: 26px;
 }
 
 /* Prevent horizontal scroll */

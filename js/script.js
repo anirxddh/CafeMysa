@@ -1,9 +1,6 @@
 // ===============================
 // LOADING SCREEN
 // ===============================
-// ===============================
-// LOADING SCREEN - ONCE PER DAY
-// ===============================
 window.addEventListener('load', () => {
     const loader = document.getElementById('loader');
     

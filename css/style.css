@@ -272,7 +272,7 @@ a {
     display: flex;
     gap: 2rem;
     padding: 0 2rem;
-    animation: scrollStrip 30s linear infinite;
+    animation: scrollStrip 10s linear infinite;
 }
 
 .image-strip:hover {

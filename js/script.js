@@ -1,6 +1,9 @@
 // ===============================
 // LOADING SCREEN
 // ===============================
+// ===============================
+// LOADING SCREEN - ONCE PER DAY
+// ===============================
 window.addEventListener('load', () => {
     const loader = document.getElementById('loader');
     
@@ -12,8 +15,10 @@ window.addEventListener('load', () => {
         setTimeout(() => {
             loader.style.display = 'none';
         }, 800);
-    }, 1500);
+    }, 800);
 });
+
+
 
 // ===============================
 // MOBILE NAVIGATION TOGGLE

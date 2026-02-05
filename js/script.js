@@ -123,9 +123,9 @@ const menuButtons = document.querySelectorAll('.menu-button');
 
 // Menu PDF links (placeholder - update with actual links)
 const menuLinks = {
-    breakfast: 'New_Menu__22_Dec.pdf', // Update with actual link
-    main: 'New_Menu__22_Dec.pdf',      // Update with actual link
-    dinner: 'DINNER_MENU.pdf'          // Update with actual link
+    breakfast: './assets/BreakfastMenu.pdf', // Update with actual link
+    dinner: './assets/DinnerMenu.pdf',      // Update with actual link
+    main: './assets/FullMenu.pdf'          // Update with actual link
 };
 
 menuButtons.forEach(button => {
@@ -158,7 +158,7 @@ const deliveryCards = document.querySelectorAll('.delivery-card');
 const deliveryLinks = {
     zomato: 'https://www.zomato.com',    // Update with actual Cafe Mysa link
     swiggy: 'https://www.swiggy.com',    // Update with actual Cafe Mysa link
-    ezdiner: 'https://www.ezdiner.com',  // Update with actual Cafe Mysa link
+    easydiner: 'https://www.ezdiner.com',  // Update with actual Cafe Mysa link
     district: 'https://www.district.in'  // Update with actual Cafe Mysa link
 };
 

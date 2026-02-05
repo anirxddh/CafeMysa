@@ -436,7 +436,7 @@ section {
 
 .signature-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center; 
     gap: 1rem;
     padding: 1rem;
     border-radius: 12px;
@@ -451,6 +451,10 @@ section {
 .signature-icon {
     font-size: 2rem;
     flex-shrink: 0;
+    line-height: 1;  
+    display: flex;    
+    align-items: center;
+    justify-content: center;
 }
 
 .signature-details h4 {
@@ -458,11 +462,62 @@ section {
     font-weight: 600;
     color: var(--color-dark-green);
     margin-bottom: 0.25rem;
+    line-height: 1.4;  
+}
+
+.signature-details {
+    flex: 1;  
 }
 
 .signature-details p {
     font-size: 0.9rem;
     color: var(--color-gray);
+    line-height: 1.5;  /* NEW: Better readability */
+}
+
+.pasta-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.pizza-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.breakfast-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.chicken-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.curry-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.cappuccino-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.frappe-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.cold-brew-icon img {
+  width: 26px;
+  height: 26px;
+}
+
+.herbaltea-icon img {
+  width: 26px;
+  height: 26px;
 }
 
 /* ===============================
@@ -486,6 +541,10 @@ section {
     text-align: center;
     transition: var(--transition-smooth);
     border: 2px solid transparent;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;    
 }
 
 .menu-card:hover {
@@ -497,6 +556,10 @@ section {
 .menu-card-icon {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
+    line-height: 1;            
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
 }
 
 .menu-card h3 {
@@ -504,12 +567,14 @@ section {
     font-size: 1.5rem;
     color: var(--color-dark-green);
     margin-bottom: 1rem;
+    line-height: 1.3;          
 }
 
 .menu-card p {
     color: var(--color-gray);
     margin-bottom: 2rem;
     font-size: 0.95rem;
+    line-height: 1.6;         
 }
 
 .menu-button {
@@ -526,6 +591,31 @@ section {
 .menu-button:hover {
     background: var(--color-medium-green);
     transform: scale(1.05);
+}
+
+.breakfastmenu-icon img {
+  width: 75px;
+  height: 75px;
+}
+
+.dinner_menu-icon img {
+  width: 95px;
+  height: 95px;
+}
+
+.fullmenu-icon {
+    width: 75px;
+    height: 75px;
+    line-height: 0;            
+    display: block;           
+    margin: 0 auto 1.5rem;     
+}
+
+.fullmenu-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 /* ===============================
@@ -556,9 +646,26 @@ section {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
+.info-card {
+    background: var(--color-white);
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transition: var(--transition-smooth);
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;    
+}
+
 .info-icon {
     font-size: 3rem;
     margin-bottom: 1.5rem;
+    line-height: 1;            
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
 }
 
 .info-card h3 {
@@ -566,6 +673,7 @@ section {
     font-size: 1.5rem;
     color: var(--color-dark-green);
     margin-bottom: 1rem;
+    line-height: 1.3;         
 }
 
 .info-details {
@@ -577,11 +685,23 @@ section {
     font-weight: 600;
     color: var(--color-medium-green);
     margin-bottom: 0.5rem;
+    line-height: 1.2;          
 }
 
 .info-subtext {
     color: var(--color-gray);
     font-size: 0.95rem;
+    line-height: 1.5;          
+}
+
+.clock-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.people-icon img {
+  width: 50px;
+  height: 50px;
 }
 
 /* ===============================
@@ -606,6 +726,37 @@ section {
     transition: var(--transition-smooth);
     border: 2px solid transparent;
     cursor: pointer;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;  
+    min-height: 250px;  
+}
+
+.delivery-icon {
+    margin-bottom: 1.5rem;      
+    line-height: 0;             
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;               
+}
+
+.delivery-icon img {
+    max-width: 150px;           
+    max-height: 80px;           
+    width: auto;
+    height: auto;
+    object-fit: contain;        
+    display: block;
+}
+
+.delivery-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-dark-green);
+    line-height: 1.3;
+    margin-top: 0;              
 }
 
 .delivery-card:hover {
@@ -614,16 +765,22 @@ section {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.delivery-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+
+.zomato-icon img {
+  width: 150px;
+  height: 110px;
 }
 
-.delivery-card h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--color-dark-green);
+.easydiner-icon img {
+  width: 150px;
+  height: 150px;
 }
+
+.district-icon img {
+  width: 120px;
+  height: 120px;
+}
+
 
 /* ===============================
    FOOTER

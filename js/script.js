@@ -137,8 +137,8 @@ const menuButtons = document.querySelectorAll('.menu-button');
 // Menu PDF links (placeholder - update with actual links)
 const menuLinks = {
     breakfast: './assets/BreakfastMenu.pdf', // Update with actual link
-    Sips: './assets/SipsOfMenu.pdf',      // Update with actual link
-    Main: './assets/FullMenu.pdf'          // Update with actual link
+    Sips: './assets/SipsOfMysa.pdf',      // Update with actual link
+    FullMenu: './assets/FullMenu.pdf'          // Update with actual link
 };
 
 menuButtons.forEach(button => {

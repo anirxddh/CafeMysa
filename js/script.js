@@ -99,15 +99,27 @@ window.addEventListener('scroll', () => {
 // HORIZONTAL IMAGE STRIP INFINITE SCROLL
 // ===============================
 const imageStrip = document.getElementById('imageStrip');
+const stripContainer = document.querySelector('.image-strip-container');
 
-// Duplicate items for seamless infinite scroll
 if (imageStrip) {
-    const stripItems = imageStrip.innerHTML;
-    imageStrip.innerHTML = stripItems + stripItems; // Duplicate for continuous scroll
+    // Store original HTML
+    const originalContent = imageStrip.innerHTML;
+    
+    // Duplicate content 3 times for seamless loop
+    imageStrip.innerHTML = originalContent + originalContent + originalContent;
+    
+    // Calculate the width of one set of items
+    const calculateResetPoint = () => {
+        const stripWidth = imageStrip.scrollWidth / 3; // Divide by 3 since we duplicated
+        imageStrip.style.setProperty('--strip-width', `${stripWidth}px`);
+    };
+    
+    // Calculate on load and resize
+    calculateResetPoint();
+    window.addEventListener('resize', calculateResetPoint);
 }
 
 // Pause animation on hover
-const stripContainer = document.querySelector('.image-strip-container');
 if (stripContainer) {
     stripContainer.addEventListener('mouseenter', () => {
         imageStrip.style.animationPlayState = 'paused';
@@ -117,7 +129,6 @@ if (stripContainer) {
         imageStrip.style.animationPlayState = 'running';
     });
 }
-
 // ===============================
 // MENU BUTTON ACTIONS
 // ===============================
@@ -126,8 +137,8 @@ const menuButtons = document.querySelectorAll('.menu-button');
 // Menu PDF links (placeholder - update with actual links)
 const menuLinks = {
     breakfast: './assets/BreakfastMenu.pdf', // Update with actual link
-    dinner: './assets/DinnerMenu.pdf',      // Update with actual link
-    main: './assets/FullMenu.pdf'          // Update with actual link
+    Sips: './assets/SipsOfMenu.pdf',      // Update with actual link
+    Main: './assets/FullMenu.pdf'          // Update with actual link
 };
 
 menuButtons.forEach(button => {
@@ -158,10 +169,10 @@ const deliveryCards = document.querySelectorAll('.delivery-card');
 
 // Delivery platform links (placeholder - update with actual links)
 const deliveryLinks = {
-    zomato: 'https://www.zomato.com',    // Update with actual Cafe Mysa link
-    swiggy: 'https://www.swiggy.com',    // Update with actual Cafe Mysa link
-    easydiner: 'https://www.ezdiner.com',  // Update with actual Cafe Mysa link
-    district: 'https://www.district.in'  // Update with actual Cafe Mysa link
+    zomato: 'https://www.zomato.com/ranchi/cafe-mysa-doranda',    // Update with actual Cafe Mysa link
+    swiggy: 'https://www.swiggy.com/city/ranchi/cafe-mysa-vip-road-dibdih-rest714662',    // Update with actual Cafe Mysa link
+    easydiner: 'https://www.eazydiner.com/ranchi/cafe-mysa-daud-nagar-ranchi-690850',  // Update with actual Cafe Mysa link
+    district: 'https://www.district.in/dining/ranchi/cafe-mysa-doranda'  // Update with actual Cafe Mysa link
 };
 
 deliveryCards.forEach(card => {

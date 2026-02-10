@@ -110,7 +110,7 @@ if (imageStrip) {
     
     // Calculate the width of one set of items
     const calculateResetPoint = () => {
-        const stripWidth = imageStrip.scrollWidth / 3; // Divide by 3 since we duplicated
+        const stripWidth = imageStrip.scrollWidth / 3; // Divide by 3 since duplicated.
         imageStrip.style.setProperty('--strip-width', `${stripWidth}px`);
     };
     
@@ -134,11 +134,11 @@ if (stripContainer) {
 // ===============================
 const menuButtons = document.querySelectorAll('.menu-button');
 
-// Menu PDF links (placeholder - update with actual links)
+// Menu PDF links (placeholders - update with actual links)
 const menuLinks = {
-    breakfast: './assets/BreakfastMenu.pdf', // Update with actual link
-    Sips: './assets/SipsOfMysa.pdf',      // Update with actual link
-    FullMenu: './assets/FullMenu.pdf'          // Update with actual link
+    breakfast: './assets/BreakfastMenu.pdf', // Update
+    Sips: './assets/SipsOfMysa.pdf',      // Update
+    FullMenu: './assets/FullMenu.pdf'          // Update
 };
 
 menuButtons.forEach(button => {
@@ -203,7 +203,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
         
-        // Skip if it's just "#" (like menu buttons)
+        
         if (href === '#') return;
         
         e.preventDefault();

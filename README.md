@@ -6,7 +6,7 @@
 
 <img src="./assets/LandingPage.png" alt="Cafe Mysa Website Preview" width="800px">
 
-_A modern, responsive website for Cafe Mysa - Ranchi's premier continental café offering artisanal coffee, delicious food, and a cozy ambiance._
+_A modern, responsive website for Cafe Mysa - Ranchi's continental café offering artisanal coffee, delicious food, and a cozy ambiance._
 
 [View Live Site](https://cafe-mysa.vercel.app/) • [Report Bug](https://github.com/anirxddh/CafeMysa/issues) • [Request Feature](https://github.com/anirxddh/CafeMysa/issues)
 

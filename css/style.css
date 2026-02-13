@@ -550,7 +550,7 @@ section {
 .signature-details p {
     font-size: 0.9rem;
     color: var(--color-gray);
-    line-height: 1.5;  /* NEW: Better readability */
+    line-height: 1.5;  
 }
 
 .pasta-icon img {

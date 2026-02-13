@@ -338,6 +338,4 @@ Visit [Cafe Mysa](https://cafe-mysa.vercel.app/) and experience the warmth yours
 
 ### Made with 💌 by Aniruddha Dey.
 
-**Cafe Mysa** - _Where Every Moment Feels Like Home_
-
 </div>

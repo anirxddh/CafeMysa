@@ -4,11 +4,17 @@
 
 ### _Where Every Moment Feels Like Home_
 
-<img src="./assets/LandingPage.png" alt="Cafe Mysa Website Preview" width="800px">
+<img src="./assets/LandingPage.png" alt="Cafe Mysa Desktop View" width="800px">
+<p><em>Desktop View</em></p>
+
+---
+
+<img src="./assets/MobileUI_Screenshot.jpg" alt="Cafe Mysa Mobile View" width="300px">
+<p><em>Mobile View</em></p>
 
 _A modern, responsive website for Cafe Mysa - Ranchi's continental café offering artisanal coffee, delicious food, and a cozy ambiance._
 
-[View Live Site](https://cafe-mysa.vercel.app/) • [Report Bug](https://github.com/anirxddh/CafeMysa/issues) • [Request Feature](https://github.com/anirxddh/CafeMysa/issues)
+[View Live Site](cafemysa.in) • [Report Bug](https://github.com/anirxddh/CafeMysa/issues) • [Request Feature](https://github.com/anirxddh/CafeMysa/issues)
 
 </div>
 

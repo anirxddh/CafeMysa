@@ -217,11 +217,11 @@ The website uses Cafe Mysa's brand colors:
 
 ### Design Principles:
 
-✅ **Minimalism** - Clean layouts with ample white space.  
-✅ **Consistency** - Unified spacing, colors, and typography.  
-✅ **Accessibility** - High contrast ratios and keyboard navigation.
-✅ **Performance** - Optimized animations and lazy loading.
-✅ **Mobile-First** - Designed for mobile, enhanced for desktop.
+- ✅ **Minimalism** - Clean layouts with ample white space.
+- ✅ **Consistency** - Unified spacing, colors, and typography.
+- ✅ **Accessibility** - High contrast ratios and keyboard navigation.
+- ✅ **Performance** - Optimized animations and lazy loading.
+- ✅ **Mobile-First** - Designed for mobile, enhanced for desktop.
 
 ---
 

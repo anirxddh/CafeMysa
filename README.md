@@ -14,7 +14,7 @@
 
 _A modern, responsive website for Cafe Mysa - Ranchi's continental café offering artisanal coffee, delicious food, and a cozy ambiance._
 
-[View Live Site](cafemysa.in) • [Report Bug](https://github.com/anirxddh/CafeMysa/issues) • [Request Feature](https://github.com/anirxddh/CafeMysa/issues)
+[View Live Site](https://cafemysa.in/) • [Report Bug](https://github.com/anirxddh/CafeMysa/issues) • [Request Feature](https://github.com/anirxddh/CafeMysa/issues)
 
 </div>
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☕ Cafe Mysa - Official Website
+# Cafe Mysa ☕ - Official Website
 
 ### _Where Every Moment Feels Like Home_
 
@@ -46,7 +46,7 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 
 - Showcases the café's signature dishes and beverages.
 - Provides essential information (location, hours, menu).
-- Enables seamless online ordering through delivery platforms.
+- Enables seamless online ordering by redirecting through delivery platforms.
 - Reflects the café's brand identity with a clean, modern design.
 - Offers an exceptional user experience across all devices.
 
@@ -56,7 +56,7 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 
 ### 🎨 **Visual & Interactive Elements**
 
-- **Loading Screen** - Welcoming "Johar!" animation with smooth fade transitions.
+- **Loading Screen** - Welcoming "Welcome to Cafe Mysa!" with Brand Logo combining animation with smooth fade transitions.
 - **Infinite Image Carousel** - Horizontally scrolling strip showcasing signature dishes and drinks with pause-on-hover functionality.
 - **Scroll Reveal Animations** - Elements fade in smoothly as users scroll through the page.
 - **Hover Effects** - Interactive cards and buttons with smooth scale and shadow transitions.
@@ -74,8 +74,8 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 1. **Hero Section** - Eye-catching headline with call-to-action.
 2. **About Us** - Story of Cafe Mysa and its mission.
 3. **Signature Items** - Showcase of signature dishes and drinks with icons.
-4. **Menu Section** - Three downloadable PDF menus (Breakfast, Full Menu, Sips of Mysa).
-5. **Cafe Info** - Opening hours and daily serving statistics.
+4. **Menu Section** - Three downloadable PDF menus (Breakfast, All Day Menu, Sips of Mysa).
+5. **Cafe Info** - Opening hours and serving statistics.
 6. **Order Online** - Quick links to Zomato, Swiggy, EasyDiner, and District.
 7. **Contact & Location** - Google Maps embed, WhatsApp contact, social media links.
 
@@ -99,6 +99,9 @@ This project is built with **pure vanilla web technologies** - no frameworks or 
 | **CSS3**              | Styling, animations, and responsive design |
 | **JavaScript (ES6+)** | Interactive features and animations        |
 | **Vercel**            | Hosting and deployment                     |
+
+Check out the Vercel version as well;
+[Cafe Mysa](https://cafe-mysa.vercel.app/)
 
 ### Why Vanilla JavaScript?
 
@@ -217,11 +220,11 @@ The website uses Cafe Mysa's brand colors:
 
 ### Design Principles:
 
-- ✅ **Minimalism** - Clean layouts with ample white space.
-- ✅ **Consistency** - Unified spacing, colors, and typography.
-- ✅ **Accessibility** - High contrast ratios and keyboard navigation.
-- ✅ **Performance** - Optimized animations and lazy loading.
-- ✅ **Mobile-First** - Designed for mobile, enhanced for desktop.
+-  **Minimalism** - Clean layouts with ample white space.
+-  **Consistency** - Unified spacing, colors, and typography.
+-  **Accessibility** - High contrast ratios and keyboard navigation.
+-  **Performance** - Optimized animations and lazy loading.
+-  **Mobile-First** - Designed for mobile, enhanced for desktop.
 
 ---
 
@@ -266,24 +269,20 @@ The website is fully responsive across all devices:
 
 ---
 
-## 🎓 Key Learnings:
+## 🎓 What I learnt here?:
 
 This project helped develop skills in:
 
-- ✅ **Pure CSS Animations** - Keyframes, transitions, and transforms.
-- ✅ **Vanilla JavaScript** - DOM manipulation without jQuery.
-- ✅ **Responsive Design** - Mobile-first approach.
-- ✅ **UI/UX Design** - Creating intuitive user experiences.
-- ✅ **Performance Optimization** - Writing efficient code.
-- ✅ **Cross-Browser Compatibility** - Testing across browsers.
+- **Pure CSS Animations** - Keyframes, FadeINs/FadeOUTs, transitions, and transforms.
+- **Vanilla JavaScript** - DOM manipulation without jQuery.
+- **Responsive Design** - Mobile-first approach.
+- **UI/UX Design** - Creating intuitive user experiences.
+- **Performance Optimization** - Writing efficient code.
+- **Cross-Browser Compatibility** - Testing across browsers.
 
 ---
 
 ## 🙏 Credits & Acknowledgments:
-
-### Design & Development:
-
-- **Designed & Developed by**: [Aniruddha Dey](https://github.com/anirxddh)
 
 ### Assets & Resources:
 
@@ -320,9 +319,9 @@ Feel free to support me on the respective platforms, most of them are still a wo
 
 ### Small Journal for Myself:
 
-This project was what I call, my first proper full fledged commercial as well as frontend coding experience, hours of de-bugging, asking AIs where am I doing wrong, frustrating 2 AM issues when it was just another missing bracket XD etc. This was completely traditionally coded, I decided to end up doing it manually since it was just frontend, took me weeks to finish it but finally it's done.
+This project was what I call, my first proper full fledged commercial as well as frontend coding experience; Hours of de-bugging, asking AIs where am I doing wrong, frustrating 2 AM issues when it was just another missing bracket XD etc. This was completely traditionally coded, I decided to end up doing it manually since it was just frontend, took me weeks to finish it but finally it's done.
 
-This project taught me a lot about the Mobile Responsiveness & Javascript. Some places when I felt I should give up and shift to vibecoding the entire thing, I felt like it would be much faster but I won't be able to learn what am I trying to in the first place.
+This project taught me a lot about the Mobile Responsiveness & Javascript, Mobile First websites then to Desktop Design was a new key learning. Some places when I felt I should give up and shift to vibecoding the entire thing, I felt like it would be much faster but I won't be able to learn what am I trying to in the first place.
 
 Well, I guess this was all for what I wanted to say after finishing this project.
 
@@ -336,7 +335,7 @@ If you are reading this, have a great day/night and please feel free to star it 
 
 If you like this project, please give it a ⭐ on GitHub!
 
-Visit [Cafe Mysa](https://cafe-mysa.vercel.app/) and experience the warmth yourself! ☕
+Visit [Cafe Mysa](https://cafemysa.in) and experience the warmth yourself! ☕
 
 ---
 

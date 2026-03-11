@@ -77,7 +77,8 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 4. **Menu Section** - Three downloadable PDF menus (Breakfast, All Day Menu, Sips of Mysa).
 5. **Cafe Info** - Opening hours and serving statistics.
 6. **Order Online** - Quick links to Zomato, Swiggy, EasyDiner, and District.
-7. **Contact & Location** - Google Maps embed, WhatsApp contact, social media links.
+7. **Blog** - Stories, updates, and moments from Cafe Mysa with expandable popup modals for full articles.
+8. **Contact & Location** - Google Maps embed, WhatsApp contact, social media links.
 
 ### 🎯 **User Experience**
 
@@ -266,6 +267,36 @@ The website is fully responsive across all devices:
 - **Accessibility**: 100
 - **Best Practices**: 100
 - **SEO**: 100
+
+---
+
+## 📝 Blog Management:
+
+The blog section is designed for easy content updates without needing a backend:
+
+### How to Update Blog Posts:
+
+1. Navigate to `js/script.js`
+2. Find the `blogContent` object (around line 280)
+3. Edit the blog data:
+```javascript
+const blogContent = {
+    blog1: {
+        title: "Your New Blog Title",
+        body: `
+            <p>Your first paragraph...</p>
+            <p>Your second paragraph...</p>
+        `
+    }
+    // Add more blogs as needed
+};
+```
+
+### Blog Features:
+- **Popup Modal** - Full-screen reading experience.
+- **Responsive Design** - Works perfectly on all devices.
+- **Easy Updates** - Simple HTML/JS editing, no database needed.
+- **Smooth Animations** - Fade-in and slide-up effects.
 
 ---
 

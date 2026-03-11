@@ -40,6 +40,7 @@
                 <li><a href="#menu" class="nav-link">Menu</a></li>
                 <li><a href="#info" class="nav-link">Info</a></li>
                 <li><a href="#order" class="nav-link">Order Online</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -400,6 +401,51 @@
             </div>
         </div>
     </section>
+
+    <!-- ===============================
+     BLOG SECTION
+     =============================== -->
+<section class="blog-section" id="blog">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title reveal">From Our Blog!</h2>
+            <div class="title-underline"></div>
+            <p class="section-subtitle reveal">Stories, updates, and moments from Cafe Mysa.</p>
+        </div>
+        
+        <div class="blog-grid">
+            <!-- Blog Post 1 -->
+            <div class="blog-card reveal" data-blog="blog1">
+                <h3>The Art of Brewing Perfect Coffee.</h3> <!-- Update the Title Here! -->
+                <p class="blog-preview">Discover the secrets behind our signature brews and what makes each cup special. From bean selection to the final pour...</p> <!-- Update the Sneak Peak Here! -->
+                <button class="blog-read-more">Read More</button>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="blog-card reveal" data-blog="blog2">
+                <h3>A Day in the Life at Cafe Mysa.</h3> <!-- Update the Title Here! -->
+                <p class="blog-preview">Join us as we take you through a typical day at the café, from early morning prep to late-night conversations...</p>  <!-- Update the Sneak Peak Here! -->
+                <button class="blog-read-more">Read More</button>
+            </div>
+            
+            <!-- Blog Post 3 -->
+            <div class="blog-card reveal" data-blog="blog3">
+                <h3>Meet Our Community!</h3> <!-- Update the Title Here! -->
+                <p class="blog-preview">The stories of our regulars, their favorite spots, and what keeps them coming back to Mysa...</p> <!-- Update the Sneak Peak Here! -->
+                <button class="blog-read-more">Read More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Popup Modal -->
+<div class="blog-modal" id="blogModal">
+    <div class="blog-modal-content">
+        <button class="blog-modal-close" id="closeModal">&times;</button>
+        <h2 class="blog-modal-title" id="blogTitle"></h2>
+        <div class="blog-modal-body" id="blogBody"></div>
+    </div>
+</div>
 
     <!-- ===============================
          FOOTER / CONTACT SECTION

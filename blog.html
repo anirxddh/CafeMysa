@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Cafe Mysa</title>
+    <meta name="description" content="Stories, updates, and moments from Cafe Mysa. Read about our community, coffee culture, and cafe life.">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- ===============================
+         HEADER WITH LOGO
+         =============================== -->
+    <header class="blog-header">
+        <div class="blog-header-container">
+            <a href="./index.html">
+                <img src="./assets/Cafe Mysa_Final-01.svg" alt="Cafe Mysa Logo" class="blog-header-logo">
+            </a>
+        </div>
+    </header>
+
+    <!-- ===============================
+         BLOG HERO SECTION
+         =============================== -->
+    <section class="blog-hero">
+        <div class="container">
+            <h1 class="blog-hero-title">Welcome to the Blog!</h1>
+            <p class="blog-hero-subtitle">What's the story cooking with Cafe Mysa!</p>
+            <div class="blog-hero-underline"></div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         ALL BLOG POSTS
+         =============================== -->
+    <section class="blog-page-section">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <div class="blog-card reveal active" data-blog="blog1">
+                    <h3>The Art of Brewing Perfect Coffee</h3>
+                    <p class="blog-preview">Discover the secrets behind our signature brews and what makes each cup special. From bean selection to the final pour...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="blog-card reveal active" data-blog="blog2">
+                    <h3>A Day in the Life at Cafe Mysa</h3>
+                    <p class="blog-preview">Join us as we take you through a typical day at the café, from early morning prep to late-night conversations...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="blog-card reveal active" data-blog="blog3">
+                    <h3>Meet Our Community</h3>
+                    <p class="blog-preview">The stories of our regulars, their favorite spots, and what keeps them coming back to Mysa...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="blog-card reveal active" data-blog="blog4">
+                    <h3>Seasonal Menu Highlights</h3>
+                    <p class="blog-preview">Explore our seasonal offerings and the inspiration behind our limited-time dishes and beverages...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 5 -->
+                <div class="blog-card reveal active" data-blog="blog5">
+                    <h3>The Story Behind Our Interiors</h3>
+                    <p class="blog-preview">How we designed Cafe Mysa to feel like home, from furniture choices to the warm lighting that makes every visit special...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 6 -->
+                <div class="blog-card reveal active" data-blog="blog6">
+                    <h3>Sustainability at Mysa</h3>
+                    <p class="blog-preview">Our journey towards sustainability, from sourcing local ingredients to reducing waste in our daily operations...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 7 -->
+                <div class="blog-card reveal active" data-blog="blog7">
+                    <h3>Coffee Tasting Notes</h3>
+                    <p class="blog-preview">A guide to understanding tasting notes and how to identify different flavor profiles in your coffee...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 8 -->
+                <div class="blog-card reveal active" data-blog="blog8">
+                    <h3>Behind the Menu</h3>
+                    <p class="blog-preview">Meet our chefs and learn about the creative process behind your favorite Cafe Mysa dishes...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 9 -->
+                <div class="blog-card reveal active" data-blog="blog9">
+                    <h3>Events & Gatherings</h3>
+                    <p class="blog-preview">From open mic nights to art exhibitions, discover the events that bring our community together...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+
+                <!-- Blog Post 10 -->
+                <div class="blog-card reveal active" data-blog="blog10">
+                    <h3>The Mysa Experience</h3>
+                    <p class="blog-preview">What makes Cafe Mysa more than just a café - it's a feeling, a community, a second home...</p>
+                    <button class="blog-read-more">Read More</button>
+                </div>
+            </div>
+
+            <!-- Back to Home Button -->
+            <div class="blog-back-home">
+                <a href="./index.html#home" class="blog-back-button">← Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Popup Modal (same as homepage) -->
+    <div class="blog-modal" id="blogModal">
+        <div class="blog-modal-content">
+            <button class="blog-modal-close" id="closeModal">&times;</button>
+            <h2 class="blog-modal-title" id="blogTitle"></h2>
+            <div class="blog-modal-body" id="blogBody"></div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

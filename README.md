@@ -20,7 +20,7 @@ _A modern, responsive website for Cafe Mysa - Ranchi's continental café offerin
 
 ---
 
-## 📖 Table of Contents -
+## Table of Contents -
 
 - [About The Project](#-about-the-project)
 - [Features](#-features)
@@ -54,7 +54,7 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 
 ## ✨ Features:
 
-### 🎨 **Visual & Interactive Elements**
+### **Visual & Interactive Elements**
 
 - **Loading Screen** - Welcoming "Welcome to Cafe Mysa!" with Brand Logo combining animation with smooth fade transitions.
 - **Infinite Image Carousel** - Horizontally scrolling strip showcasing signature dishes and drinks with pause-on-hover functionality.
@@ -62,14 +62,14 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 - **Hover Effects** - Interactive cards and buttons with smooth scale and shadow transitions.
 - **Parallax Scrolling** - Subtle parallax effect on hero section for depth.
 
-### 📱 **Responsive Navigation**
+### **Responsive Navigation**
 
 - **Fixed Navbar** - Stays at the top for easy navigation.
 - **Mobile Hamburger Menu** - Smooth toggle with animated icon.
 - **Smooth Scroll** - Seamless transitions between sections.
 - **Active State** - Visual feedback on navigation items.
 
-### 🍽️ **Content Sections**
+### **Content Sections**
 
 1. **Hero Section** - Eye-catching headline with call-to-action.
 2. **About Us** - Story of Cafe Mysa and its mission.
@@ -80,7 +80,7 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 7. **Blog** - Stories, updates, and moments from Cafe Mysa with expandable popup modals for full articles.
 8. **Contact & Location** - Google Maps embed, WhatsApp contact, social media links.
 
-### 🎯 **User Experience**
+### **User Experience**
 
 - **One-Click Ordering** - Direct links to delivery platforms.
 - **PDF Menu Viewing** - Downloadable menu files.
@@ -90,7 +90,7 @@ The goal was to create a **premium, calm, and aesthetically pleasing** web prese
 
 ---
 
-## 🛠️ Tech Stack:
+## Tech Stack:
 
 This project is built with **pure vanilla web technologies** - no frameworks or libraries needed!
 
@@ -114,7 +114,7 @@ Check out the Vercel version as well;
 
 ---
 
-## 📁 Project Structure:
+## Project Structure:
 
 ```
 cafe-mysa-website/
@@ -150,7 +150,7 @@ cafe-mysa-website/
 
 ---
 
-## 🚀 Getting Started:
+## Getting Started:
 
 ### Prerequisites:
 
@@ -199,7 +199,7 @@ Or simply push to GitHub and connect to Vercel for automatic deployments!
 
 ---
 
-## 🎨 Design Philosophy:
+## Design Philosophy:
 
 ### Color Palette:
 
@@ -229,7 +229,7 @@ The website uses Cafe Mysa's brand colors:
 
 ---
 
-## 📱 Responsiveness:
+## Responsiveness:
 
 The website is fully responsive across all devices:
 
@@ -251,7 +251,7 @@ The website is fully responsive across all devices:
 
 ---
 
-## ⚡ Performance Optimizations:
+## Performance Optimizations:
 
 ### Speed Enhancements:
 
@@ -270,7 +270,7 @@ The website is fully responsive across all devices:
 
 ---
 
-## 📝 Blog Management:
+## Blog Management:
 
 The blog section is designed for easy content updates without needing a backend:
 
@@ -300,7 +300,7 @@ const blogContent = {
 
 ---
 
-## 🎓 What I learnt here?:
+## What I learnt here?:
 
 This project helped develop skills in:
 
@@ -313,9 +313,11 @@ This project helped develop skills in:
 
 ---
 
-## 🙏 Credits & Acknowledgments:
+## Credits & Acknowledgments:
 
 ### Assets & Resources:
+
+I'd like to thank the following open sources for providing assets for helping me build this website.
 
 - **Icons**: [Flaticon](https://www.flaticon.com/) - SVG icons for menu, social media, and features.
 - **Delivery Platform Logos**: Respective trademark owners (Zomato, Swiggy, EasyDiner, District).
@@ -330,7 +332,7 @@ This project helped develop skills in:
 
 ---
 
-## 📄 License:
+## License:
 
 This project is created for **Cafe Mysa** and is not open for commercial reuse without permission.
 
@@ -362,7 +364,7 @@ If you are reading this, have a great day/night and please feel free to star it 
 
 ---
 
-## 🌟 Show Your Support
+## Show Your Support!
 
 If you like this project, please give it a ⭐ on GitHub!
 

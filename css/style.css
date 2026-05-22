@@ -716,6 +716,21 @@ section {
     display: block;
 }
 
+.summerspeciale-icon {
+    width: 75px;
+    height: 75px;
+    line-height: 0;
+    display: block;
+    margin: 0 auto 1.5rem;
+}
+
+.summerspeciale-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 /* ===============================
    INFO SECTION
    =============================== */

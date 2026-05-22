@@ -171,7 +171,8 @@ const menuButtons = document.querySelectorAll('.menu-button');
 const menuLinks = {
     breakfast: './assets/BreakfastMenu.pdf', // Updated
     Sips: './assets/SipsOfMysa.pdf',      // Updated
-    FullMenu: './assets/FullMenu.pdf'          // Updated
+    FullMenu: './assets/FullMenu.pdf',         // Updated
+    SummerSpeciale: './assets/Summer-Speciale!.pdf'
 };
 
 menuButtons.forEach(button => {

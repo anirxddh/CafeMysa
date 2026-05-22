@@ -1101,6 +1101,13 @@ section {
     color: var(--color-light-green);
 }
 
+.footer-section h6 {
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--color-light-green);
+}
+
 .footer-logo {
     height: 60px;
     width: auto;

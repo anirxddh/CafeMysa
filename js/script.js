@@ -162,6 +162,7 @@ if (stripContainer) {
         imageStrip.style.animationPlayState = 'running';
     });
 }
+
 // ===============================
 // MENU BUTTON ACTIONS
 // ===============================
@@ -169,9 +170,9 @@ const menuButtons = document.querySelectorAll('.menu-button');
 
 // Menu PDF links 
 const menuLinks = {
-    breakfast: './assets/BreakfastMenu.pdf', // Updated
-    Sips: './assets/SipsOfMysa.pdf',      // Updated
-    FullMenu: './assets/FullMenu.pdf',         // Updated
+    breakfast: './assets/BreakfastMenu.pdf',
+    Sips: './assets/SipsOfMysa.pdf',
+    FullMenu: './assets/FullMenu.pdf',
     SummerSpeciale: './assets/Summer-Speciale!.pdf'
 };
 
@@ -203,10 +204,10 @@ const deliveryCards = document.querySelectorAll('.delivery-card');
 
 // Delivery platform links
 const deliveryLinks = {
-    zomato: 'https://www.zomato.com/ranchi/cafe-mysa-doranda',    // Updated with actual Cafe Mysa link
-    swiggy: 'https://www.swiggy.com/city/ranchi/cafe-mysa-vip-road-dibdih-rest714662',    // Updated with actual Cafe Mysa link
-    easydiner: 'https://www.eazydiner.com/ranchi/cafe-mysa-daud-nagar-ranchi-690850',  // Updated with actual Cafe Mysa link
-    district: 'https://www.district.in/dining/ranchi/cafe-mysa-doranda'  // Updated with actual Cafe Mysa link
+    zomato: 'https://www.zomato.com/ranchi/cafe-mysa-doranda',
+    swiggy: 'https://www.swiggy.com/city/ranchi/cafe-mysa-vip-road-dibdih-rest714662',
+    easydiner: 'https://www.eazydiner.com/ranchi/cafe-mysa-daud-nagar-ranchi-690850',
+    district: 'https://www.district.in/dining/ranchi/cafe-mysa-doranda'
 };
 
 deliveryCards.forEach(card => {
@@ -237,7 +238,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
         
-        
         if (href === '#') return;
         
         e.preventDefault();
@@ -265,7 +265,7 @@ const interactiveCards = document.querySelectorAll('.menu-card, .info-card, .del
 
 interactiveCards.forEach(card => {
     card.addEventListener('mouseenter', function() {
-        this.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+        this.style.transition = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
     });
 });
 
@@ -323,183 +323,103 @@ function initBlogModal() {
 
     const blogContent = {
         blog1: {
-            title: "Coffee Culture in Ranchi is Growing — And Cafe Mysa is Leading It",
+            title: "The Window Seat at 8:10 AM",
             body: `
-                <p>Ranchi has quietly but confidently stepped into its café era. Walk through New Alkapuri, Harmu, or Kanke Road today and you'll find coffee shops that hold their own against anything in Bengaluru or Pune — but among all the new openings, one name keeps rising to the top of every local conversation: Cafe Mysa.</p>
-                <p>Tucked along Bypass Road in New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002 — this place has become more than just somewhere to grab a cup of coffee. It has become a destination, a habit, and for many people across Ranchi, an essential part of how they start their mornings, wind down their evenings, or simply slow down in the middle of a busy week.</p>
-                <p>Open every single day from 7:30 AM all the way to 2:00 AM, Cafe Mysa accommodates early risers, students, working professionals, and night owls alike. That kind of generosity with hours — rare among cafés anywhere in Jharkhand, let alone Ranchi — sends a message: this place is built for real people with real schedules, not just for the weekend brunch crowd.</p>
-                <p>The location on Bypass Road is easy to reach whether you're coming from Morabadi, Booty More, Kantatoli, or the residential stretches around Daud Nagar. From the moment you step inside, the outside world seems to shift a little further away.</p>
-                <p>The ambience is warm and considered — cosy without being cramped, stylish without tipping into cold or performative. Reviewers have described it as feeling like “an oasis in the middle of a busy city,” the kind of space where solitude feels earned and conversation feels easy.</p>
-                <p>The lighting is gentle, the seating is built for comfort, and the atmosphere carries that rare quality where you feel no pressure to leave — a quality that has earned Cafe Mysa a 4.4-star rating on Google across more than 1,200 reviews, which for a café in Ranchi is not just impressive but genuinely difficult to sustain.</p>
-                <p>That kind of consistent positive response, built across hundreds of visits and thousands of interactions, tells you something no amount of marketing can manufacture: people come here, enjoy themselves, and come back.</p>
-                <p>The coffee is a big part of why. From carefully pulled espresso drinks to cold brews to creative seasonal frappes — the strawberry matcha frappe has become something of a signature, praised by visitors for its “perfect balance of strawberry sweetness with matcha.”</p>
-                <p>The drinks menu is designed for people who have moved well past the instant-coffee stage and want something made with intention. The team behind the bar takes its craft seriously, and it shows in both flavour and consistency.</p>
-                <p>What truly separates Cafe Mysa from the growing crowd of coffee shops in Ranchi, though, is the fact that the food matches the drinks in ambition and execution.</p>
-                <p>This is not a café that treats the menu as an afterthought. The chicken lasagna is a dish regulars mention by name. The chicken steak sizzler arrives with drama and flavour, and the fish fingers — crispy, fresh, and well-seasoned — have earned their own loyal following.</p>
-                <p>For those with a sweet tooth, the Ferrero Rocher milkshake is rich and indulgent in exactly the right way, and the brownie sizzler is the kind of dessert that ends a meal on a high note.</p>
-                <p>The menu spans continental flavours, café classics, and desserts that feel genuinely crafted rather than bought in.</p>
-                <p>Whether you're a student, a family, a professional passing through Ranchi, or a couple out for the evening, Cafe Mysa delivers something worth returning for.</p>
-                <p>In a city whose café scene is growing quickly and confidently, Cafe Mysa isn't just keeping up — it's setting the pace.</p>
-                <p>If you haven't been yet, the address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002, the phone is +91 92638 54720, and the doors are open from 7:30 AM to 2:00 AM every day.</p>
+                <p>Every weekday morning, a school teacher arrives before the rush, chooses the same window seat, and places a steel tiffin beside her cup. She calls this twenty-minute pause her "quiet class before class."</p>
+                <p>She does not scroll, she does not rush, and she rarely orders anything complicated. One cappuccino, one notebook, one deep breath before a day full of voices.</p>
+                <p>Over time, the team learned her rhythm. The cup reaches the table just as sunlight touches the corner of the chair. No announcement, no ceremony, just care done consistently.</p>
+                <p>Her story reminds us that a cafe is not only about the menu. Sometimes, it is about giving people a small piece of certainty in a busy city.</p>
+                <p>If you have your own "8:10 seat," we are happy to keep it warm for you.</p>
             `
         },
         blog2: {
-            title: "Ranchi’s Most Aesthetic Cafe for Photos and Hangouts",
+            title: "How the Strawberry Matcha Became a Ritual",
             body: `
-                <p>There is a moment that happens in every great café — the moment you walk in and immediately reach for your phone, not because you planned to, but because the space in front of you simply demands to be captured.</p>
-                <p>That moment happens consistently at Cafe Mysa, located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, and it is a big part of why this café has become the most talked-about hangout spot among Ranchi's students, young professionals, and anyone who believes that where you sit matters as much as what you order.</p>
-                <p>A café today is not just a place to consume food and drink — it is a place where people come to feel something, to slow down, to connect, and yes, to capture moments worth sharing.</p>
-                <p>Cafe Mysa understands this completely, and its interiors reflect that at every turn. The lighting is warm and deliberate — the kind that softens everything just enough and makes faces glow naturally.</p>
-                <p>The seating is thoughtfully arranged so that every corner feels intentional. Every seat is a good seat, and every angle is a potential frame.</p>
-                <p>The décor balances cosy and stylish — warm in texture, yet visually sharp enough to avoid feeling dated.</p>
-                <p>This is not accidental. Ranchi’s café scene has grown rapidly, and people now understand the difference between a place that looks good and one that *feels* good.</p>
-                <p>Cafe Mysa has earned its reputation not through one dramatic design choice, but through a hundred small, thoughtful decisions.</p>
-                <p>What makes Cafe Mysa more than just aesthetic, however, is the experience behind the visuals.</p>
-                <p>The coffee is crafted with care — the strawberry matcha frappe has become a signature drink, praised widely for its balance and originality.</p>
-                <p>The food goes beyond expectations. Chicken lasagna, chicken steak sizzler, fish fingers, Ferrero Rocher milkshake, and brownie sizzler all deliver both in taste and presentation.</p>
-                <p>This is a place where people stay, order across courses, and enjoy the experience.</p>
-                <p>Open daily from 7:30 AM to 2:00 AM, the café adapts to every mood — brunch, study sessions, evening hangouts, and late-night conversations.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, Cafe Mysa stands as Ranchi’s most complete aesthetic café experience.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002, and the number is +91 92638 54720.</p>
+                <p>It began with one hesitant order. A guest looked at the menu, pointed at Strawberry Matcha, and said, "I am not sure I will like this, but let me try."</p>
+                <p>She took a sip, smiled, and came back two days later with three friends. A week later, they became a Friday group. Then they brought cousins, coworkers, and visiting classmates.</p>
+                <p>Now we often hear, "Same table, same drink, same Friday." What was once a new item is now part of many small reunions.</p>
+                <p>People ask what the secret is. It is not only the flavor balance. It is the memory attached to that first sip after a hard week.</p>
+                <p>Some drinks quench thirst. A few become traditions. This one did both.</p>
             `
         },
         blog3: {
-            title: "Where Ranchi’s Instagram Crowd Loves to Hang Out",
+            title: "After 11 PM: The Quiet Crowd",
             body: `
-                <p>There is a certain kind of place that the internet has made people hunger for — a space that looks as good as it feels.</p>
-                <p>In Ranchi, that place is Cafe Mysa.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, Cafe Mysa has become the city's go-to destination for content creators, students, couples, and friend groups.</p>
-                <p>What makes it special is that it achieves this without feeling forced or artificial.</p>
-                <p>The interiors are thoughtfully designed — warm lighting, cosy seating, modern décor, and photogenic corners everywhere you look.</p>
-                <p>Every detail contributes to a space that feels alive rather than staged.</p>
-                <p>This is why Ranchi’s Instagram crowd keeps returning — consistency.</p>
-                <p>Whether morning or evening, every visit offers something visually unique.</p>
-                <p>The café is open from 7:30 AM to 2:00 AM, making it accessible at all times of the day.</p>
-                <p>The drinks and food are just as photogenic as the space itself.</p>
-                <p>The strawberry matcha frappe is one of the most shared drinks in Ranchi — visually striking and genuinely delicious.</p>
-                <p>The Ferrero Rocher milkshake is indulgent and eye-catching.</p>
-                <p>The brownie sizzler arrives sizzling, creating a moment that is almost impossible not to capture.</p>
-                <p>The food menu complements the experience — chicken lasagna, chicken steak sizzler, and fish fingers are consistently well-presented and satisfying.</p>
-                <p>This combination has earned Cafe Mysa a 4.4-star rating across more than 1,200 reviews.</p>
-                <p>Students, professionals, and visitors from cities like Jamshedpur, Dhanbad, and Bokaro all make it a point to visit.</p>
-                <p>Cafe Mysa is not just visually appealing — it is genuinely enjoyable.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002, and the café is open every day from 7:30 AM to 2:00 AM.</p>
+                <p>After 11 PM, the cafe changes mood. The lights feel softer, conversations grow slower, and laughter comes in shorter, warmer bursts.</p>
+                <p>We see nurses after duty, developers after deadlines, and friends who have not met in months. Nobody is in a hurry to leave. Nobody is trying to impress anyone.</p>
+                <p>The late-night crowd usually asks for comfort orders: something warm, something easy to share, and tea or coffee that keeps the conversation going.</p>
+                <p>These hours remind us that good hospitality is often quiet. It is a glass of water before someone asks, a chair shifted for an extra guest, a gentle check-in when the table falls silent.</p>
+                <p>For many people in Ranchi, this is the hour when the day finally feels complete.</p>
             `
         },
         blog4: {
-            title: "Where Couples in Ranchi Love to Spend Their Evenings",
+            title: "A Birthday for Twelve, Planned in Forty Minutes",
             body: `
-                <p>There is something quietly powerful about the right café at the right hour.</p>
-                <p>In Ranchi, that place is Cafe Mysa.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it has become a naturally romantic spot without trying too hard.</p>
-                <p>The lighting is warm and intimate, the seating is thoughtfully spaced, and the ambience allows conversations to flow naturally.</p>
-                <p>Unlike louder restaurants, Cafe Mysa keeps its energy calm and relaxed.</p>
-                <p>This makes it ideal for meaningful, unhurried conversations.</p>
-                <p>The café is open from 7:30 AM to 2:00 AM, making it perfect for morning dates, evening outings, and late-night conversations.</p>
-                <p>The food and drinks enhance the experience.</p>
-                <p>The brownie sizzler creates a shared moment, the Ferrero Rocher milkshake adds indulgence, and dishes like chicken steak sizzler and chicken lasagna make full meals satisfying.</p>
-                <p>Fish fingers offer a lighter, shareable option.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, the café has built a reputation for consistency and comfort.</p>
-                <p>For couples in Ranchi, Cafe Mysa offers an experience that feels effortless yet special.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>One evening, a group called and asked if we could help with a surprise birthday. They had forty minutes, one cake, and no decorations.</p>
+                <p>Our team moved fast. Two tables became one long setup, spare candles came out, and someone found a playlist that felt personal without being loud.</p>
+                <p>When the birthday girl arrived, she thought it was just dinner. Then the lights dimmed, everyone stood up, and she cried before the first song ended.</p>
+                <p>Nothing about that evening was expensive or elaborate. It worked because everyone contributed one small thing at the right time.</p>
+                <p>That is our favorite kind of celebration: simple, sincere, and full of people who mean it.</p>
             `
         },
         blog5: {
-            title: "The Café Ranchi Locals Keep Recommending",
+            title: "Notes from the Kitchen Pass",
             body: `
-                <p>The best places in any city rarely announce themselves loudly. They grow through honest recommendations — one person telling another about a genuinely good experience.</p>
-                <p>In Ranchi, that place is Cafe Mysa.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it has built its reputation through consistency rather than marketing.</p>
-                <p>Students, professionals, families, and creatives across Ranchi all seem to arrive at the same conclusion: this café delivers.</p>
-                <p>The space is warm and thoughtfully designed, with cosy seating, soft lighting, and a balanced atmosphere that feels lively but not overwhelming.</p>
-                <p>There are no rough edges to the experience — everything flows smoothly.</p>
-                <p>Open daily from 7:30 AM to 2:00 AM, Cafe Mysa is available whenever people need it.</p>
-                <p>The coffee is crafted with care, with the strawberry matcha frappe standing out as a signature favourite.</p>
-                <p>The food is equally strong — chicken lasagna, chicken steak sizzler, fish fingers, brownie sizzler, and Ferrero Rocher milkshake all contribute to a menu worth recommending.</p>
-                <p>This consistency has earned the café a 4.4-star rating across more than 1,200 reviews.</p>
-                <p>In Ranchi’s growing café scene, Cafe Mysa has become the place people naturally suggest when asked where to go.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>Guests often see the finished plate, but the real story begins at the kitchen pass where every dish is checked before it leaves.</p>
+                <p>There is a short question we ask repeatedly: "Would this feel comforting if someone ordered it after a long day?" If the answer is no, we adjust.</p>
+                <p>That can mean changing spice balance, adding texture, or serving two items together because they complete each other better.</p>
+                <p>We also design with sharing in mind. Many tables here are groups, and food tastes better when everyone can reach for one more bite.</p>
+                <p>Comfort food is not accidental. It is built through small decisions made with patience.</p>
             `
         },
         blog6: {
-            title: "How One Café Is Winning Hearts Across Ranchi",
+            title: "The People Behind the Counter",
             body: `
-                <p>Every city eventually finds a café that becomes more than just a place to eat — a shared reference point.</p>
-                <p>In Ranchi, that café is Cafe Mysa.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it has been steadily winning people over through consistent experiences.</p>
-                <p>The ambience is warm and inviting, with soft lighting, comfortable seating, and modern décor that balances style and comfort.</p>
-                <p>The service adds to the experience — attentive, genuine, and welcoming.</p>
-                <p>Open every day from 7:30 AM to 2:00 AM, Cafe Mysa fits into every part of the day.</p>
-                <p>What turns visitors into regulars is the quality of the food and coffee.</p>
-                <p>The strawberry matcha frappe has become a widely recognised signature drink.</p>
-                <p>The chicken lasagna, chicken steak sizzler, fish fingers, brownie sizzler, and Ferrero Rocher milkshake all deliver consistently.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, the café has built a loyal following across Ranchi and beyond.</p>
-                <p>Cafe Mysa has become a place people return to — not just for what it offers, but for how it makes them feel.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>Most guests remember the menu first. Regulars remember people.</p>
+                <p>They remember who asks, "Usual?" with a smile. They remember the person who noticed they looked tired and suggested something lighter.</p>
+                <p>Our team includes early-shift openers, afternoon runners, and late-night closers. Different timings, same intention: make every guest feel seen.</p>
+                <p>A lot of this work is invisible. It is timing refills, resetting tables quickly, and handling mistakes with honesty and calm.</p>
+                <p>If the cafe feels warm, it is because the people serving you choose warmth on purpose, every single day.</p>
             `
         },
         blog7: {
-            title: "A Perfect Weekend Escape in the Middle of Ranchi",
+            title: "Rainy Day at Mysa",
             body: `
-                <p>There is a kind of exhaustion that builds during the week — and weekends are meant to break that rhythm.</p>
-                <p>In Ranchi, Cafe Mysa offers exactly that escape.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it provides a space where time slows down.</p>
-                <p>Weekend mornings here are calm and inviting, with warm lighting and a relaxed atmosphere.</p>
-                <p>Friends, families, and couples often find themselves staying longer than planned.</p>
-                <p>The café offers a break from the usual pace — a place to sit, talk, and unwind without pressure.</p>
-                <p>Open from 7:30 AM to 2:00 AM, it accommodates every kind of weekend plan.</p>
-                <p>The food complements the experience perfectly.</p>
-                <p>The chicken lasagna anchors slow brunches, the chicken steak sizzler adds richness, and fish fingers offer easy sharing.</p>
-                <p>The brownie sizzler serves as the perfect dessert, while drinks like the strawberry matcha frappe and Ferrero Rocher milkshake enhance the experience.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, Cafe Mysa has become Ranchi’s go-to weekend café.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>Monsoon afternoons arrive without warning in Ranchi. One minute it is humid, the next minute everyone runs in laughing, holding wet bags and folded dupattas.</p>
+                <p>On one such day, we had extra chairs near the entrance, tissues on every table, and a line of shoes drying by the door.</p>
+                <p>Orders shifted naturally: more soup, more hot beverages, fewer cold drinks. Conversations lasted longer because nobody wanted to step back into the rain.</p>
+                <p>A guest offered to share her charging slot with another table. Two strangers started talking and ended up exchanging book recommendations.</p>
+                <p>By evening, the rain stopped. The warmth in the room did not.</p>
             `
         },
         blog8: {
-            title: "A Student-Friendly Café Ranchi’s Young Crowd Loves",
+            title: "The Long Table Diaries",
             body: `
-                <p>Student life in Ranchi can be demanding, and finding the right space to unwind matters.</p>
-                <p>Cafe Mysa has become that space.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it offers an environment that feels welcoming and relaxed.</p>
-                <p>The seating supports both group discussions and solo study sessions.</p>
-                <p>The lighting is warm, and the atmosphere allows students to stay without feeling rushed.</p>
-                <p>Open daily from 7:30 AM to 2:00 AM, it fits perfectly into student schedules.</p>
-                <p>The coffee menu caters to all preferences, with the strawberry matcha frappe standing out.</p>
-                <p>The food menu is equally strong — chicken lasagna, chicken steak sizzler, fish fingers, brownie sizzler, and Ferrero Rocher milkshake all offer quality and variety.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, Cafe Mysa has become a favourite among Ranchi’s student community.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>There is one long table that has seen interview prep, startup pitch rehearsals, assignment panic, and celebration selfies all in the same week.</p>
+                <p>Students use it for group study. Freelancers use it for deep work. Founders use it for planning sessions with too many sticky notes and too little time.</p>
+                <p>What they all need is simple: reliable Wi-Fi, patient service, and a place where staying for another hour is not awkward.</p>
+                <p>We have watched strangers become collaborators there. We have watched ideas become projects, and projects become jobs.</p>
+                <p>Sometimes all progress needs is one table that does not rush you.</p>
             `
         },
         blog9: {
-            title: "The Café in Ranchi That Feels Like a Second Home",
+            title: "Sundays with Families",
             body: `
-                <p>There is a difference between a café you visit and a café you belong to.</p>
-                <p>In Ranchi, Cafe Mysa has become that second kind of place.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it offers a space that feels familiar and welcoming.</p>
-                <p>The ambience is warm, the seating is comfortable, and the service feels personal without being intrusive.</p>
-                <p>Open every day from 7:30 AM to 2:00 AM, it remains accessible at all times.</p>
-                <p>The food and coffee reinforce the experience.</p>
-                <p>The chicken lasagna, chicken steak sizzler, fish fingers, brownie sizzler, and Ferrero Rocher milkshake have become favourites among regulars.</p>
-                <p>The strawberry matcha frappe remains a standout drink.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, Cafe Mysa has built a loyal community.</p>
-                <p>It is not just a café — it is a place people return to again and again.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>Sunday afternoons are family time. Grandparents arrive first, children choose seats by speed rather than logic, and someone always asks for an extra plate "just in case."</p>
+                <p>These tables are not about efficiency. They are about stories repeated for the third time, photos taken in poor lighting, and dessert debates that nobody truly wants to settle.</p>
+                <p>We try to support that pace with patient service and share-friendly portions, because good family meals should feel unhurried.</p>
+                <p>By the end, someone is packing leftovers, someone is planning next Sunday, and someone is still finishing the last sip.</p>
+                <p>For us, this is hospitality at its purest: helping people spend meaningful time together.</p>
             `
         },
         blog10: {
-            title: "The Café in Ranchi Everyone Ends Up Talking About",
+            title: "What Home Means Here",
             body: `
-                <p>Some cafés grow through marketing. Others grow through conversation.</p>
-                <p>Cafe Mysa belongs to the latter.</p>
-                <p>Located on Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand — 834002, it has become one of the most talked-about cafés in the city.</p>
-                <p>The atmosphere is warm, inviting, and thoughtfully designed.</p>
-                <p>People come in for a quick visit and often stay much longer than planned.</p>
-                <p>Open from 7:30 AM to 2:00 AM daily, it fits into every schedule.</p>
-                <p>The coffee is crafted with care, with the strawberry matcha frappe leading the menu.</p>
-                <p>The food delivers consistently — chicken lasagna, chicken steak sizzler, fish fingers, brownie sizzler, and Ferrero Rocher milkshake all contribute to the experience.</p>
-                <p>With a 4.4-star rating across more than 1,200 reviews, the reputation is built on real experiences.</p>
-                <p>Cafe Mysa continues to be the place people recommend, revisit, and talk about.</p>
-                <p>The address is Bypass Road, New Alkapuri, Daud Nagar, Ranchi, Jharkhand 834002.</p>
+                <p>People often ask what "Where every moment feels like home" means in practice. For us, it is not a slogan. It is a checklist of everyday behavior.</p>
+                <p>Home means remembering preferences without making people repeat themselves. Home means handling delays with honesty, not excuses.</p>
+                <p>Home means a space where you can celebrate loudly one day and sit quietly the next, and both feel equally welcome.</p>
+                <p>It also means consistency. The same care on busy days and slow days, mornings and late nights, first visits and fiftieth visits.</p>
+                <p>If guests leave feeling lighter than when they arrived, we know we are doing it right.</p>
             `
         }
     };
@@ -583,6 +503,334 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('[OK] Scroll animations ready');
     console.log('[OK] Interactive elements active');
 });
+
+// ===============================
+// MICRO-INTERACTIONS PACK
+// ===============================
+
+// Small utility helpers used by the interaction features below.
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+const throttle = (fn, wait = 100) => {
+    let inThrottle = false;
+    let lastArgs;
+
+    return (...args) => {
+        if (inThrottle) {
+            lastArgs = args;
+            return;
+        }
+
+        fn(...args);
+        inThrottle = true;
+
+        setTimeout(() => {
+            inThrottle = false;
+            if (lastArgs) {
+                fn(...lastArgs);
+                lastArgs = null;
+            }
+        }, wait);
+    };
+};
+
+const isTouchDevice = () => {
+    return window.matchMedia('(pointer: coarse)').matches;
+};
+
+function initScrollProgressRail() {
+    const pageRoot = document.documentElement;
+    if (!pageRoot) {
+        return;
+    }
+
+    const rail = document.createElement('div');
+    rail.setAttribute('aria-hidden', 'true');
+    rail.id = 'scrollProgressRail';
+    rail.style.position = 'fixed';
+    rail.style.top = '0';
+    rail.style.left = '0';
+    rail.style.width = '4px';
+    rail.style.height = '100vh';
+    rail.style.background = 'rgba(159, 185, 104, 0.12)';
+    rail.style.zIndex = '9998';
+    rail.style.pointerEvents = 'none';
+
+    const thumb = document.createElement('div');
+    thumb.id = 'scrollProgressThumb';
+    thumb.style.width = '100%';
+    thumb.style.height = '0%';
+    thumb.style.background = 'linear-gradient(180deg, #1a4d3e 0%, #9fb968 100%)';
+    thumb.style.transition = 'height 120ms linear';
+    thumb.style.boxShadow = '0 0 12px rgba(26, 77, 62, 0.35)';
+    rail.appendChild(thumb);
+
+    document.body.appendChild(rail);
+
+    const updateProgress = () => {
+        const scrollTop = window.pageYOffset || pageRoot.scrollTop || 0;
+        const docHeight = Math.max(
+            pageRoot.scrollHeight,
+            document.body.scrollHeight,
+            pageRoot.offsetHeight,
+            document.body.offsetHeight,
+            pageRoot.clientHeight
+        ) - window.innerHeight;
+
+        const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
+        thumb.style.height = `${clamp(ratio, 0, 1) * 100}%`;
+    };
+
+    updateProgress();
+    window.addEventListener('scroll', throttle(updateProgress, 80), { passive: true });
+    window.addEventListener('resize', throttle(updateProgress, 100));
+}
+
+function initPointerGlowCards() {
+    if (isTouchDevice()) {
+        return;
+    }
+
+    const glowTargets = document.querySelectorAll(
+        '.menu-card, .info-card, .delivery-card, .signature-item, .blog-card'
+    );
+
+    if (glowTargets.length === 0) {
+        return;
+    }
+
+    glowTargets.forEach((card) => {
+        const computedPosition = window.getComputedStyle(card).position;
+        if (computedPosition === 'static') {
+            card.style.position = 'relative';
+        }
+
+        const glow = document.createElement('div');
+        glow.setAttribute('aria-hidden', 'true');
+        glow.style.position = 'absolute';
+        glow.style.inset = '0';
+        glow.style.borderRadius = 'inherit';
+        glow.style.pointerEvents = 'none';
+        glow.style.opacity = '0';
+        glow.style.transition = 'opacity 220ms ease';
+        glow.style.background =
+            'radial-gradient(140px circle at var(--mx, 50%) var(--my, 50%), rgba(159, 185, 104, 0.17), transparent 70%)';
+        card.appendChild(glow);
+
+        card.addEventListener('mouseenter', () => {
+            glow.style.opacity = '1';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            glow.style.opacity = '0';
+        });
+
+        card.addEventListener('mousemove', (event) => {
+            const rect = card.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            glow.style.setProperty('--mx', `${x}px`);
+            glow.style.setProperty('--my', `${y}px`);
+        });
+    });
+}
+
+function initBlogCardReadTime() {
+    const blogCards = document.querySelectorAll('.blog-card');
+    if (blogCards.length === 0) {
+        return;
+    }
+
+    blogCards.forEach((card) => {
+        if (card.querySelector('.blog-read-meta')) {
+            return;
+        }
+
+        const preview = card.querySelector('.blog-preview');
+        if (!preview) {
+            return;
+        }
+
+        const text = preview.textContent || '';
+        const words = text.trim().split(/\s+/).filter(Boolean).length;
+        const readMinutes = Math.max(1, Math.round(words / 160));
+
+        const meta = document.createElement('p');
+        meta.className = 'blog-read-meta';
+        meta.textContent = `${readMinutes} min read`;
+        meta.style.marginTop = '0.6rem';
+        meta.style.fontSize = '0.82rem';
+        meta.style.letterSpacing = '0.02em';
+        meta.style.color = '#6b7280';
+        card.appendChild(meta);
+    });
+}
+
+function initKeyboardShortcutsPanel() {
+    const isBlogPage = Boolean(document.querySelector('#blog-home') || document.querySelector('#blog-posts'));
+    const panelSeenStorageKey = 'mysaShortcutPanelSeenV1';
+
+    const sections = isBlogPage
+        ? [
+            { key: '1', label: 'Blog Top', selector: '#blog-home' },
+            { key: '2', label: 'Posts', selector: '#blog-posts' },
+            { key: '3', label: 'Contact', selector: '#contact' }
+        ]
+        : [
+            { key: '1', label: 'Home', selector: '#home' },
+            { key: '2', label: 'Menu', selector: '#menu' },
+            { key: '3', label: 'Order', selector: '#order' },
+            { key: '4', label: 'Blog', selector: '#blog' },
+            { key: '5', label: 'Contact', selector: '#contact' }
+        ];
+
+    const availableSections = sections.filter((item) => document.querySelector(item.selector));
+    if (availableSections.length === 0) {
+        return;
+    }
+
+    const panel = document.createElement('aside');
+    panel.id = 'shortcutPanel';
+    panel.setAttribute('aria-label', 'Keyboard shortcuts');
+    panel.style.position = 'fixed';
+    panel.style.right = '16px';
+    panel.style.bottom = '16px';
+    panel.style.zIndex = '9999';
+    panel.style.padding = '10px 12px';
+    panel.style.borderRadius = '12px';
+    panel.style.background = 'rgba(255, 255, 255, 0.9)';
+    panel.style.border = '1px solid rgba(26, 77, 62, 0.15)';
+    panel.style.backdropFilter = 'blur(8px)';
+    panel.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.08)';
+    panel.style.fontSize = '12px';
+    panel.style.lineHeight = '1.3';
+    panel.style.color = '#1f2937';
+    panel.style.maxWidth = '220px';
+    panel.style.transition = 'opacity 180ms ease, transform 180ms ease';
+
+    const title = document.createElement('strong');
+    title.textContent = 'Jump keys';
+    title.style.display = 'block';
+    title.style.marginBottom = '6px';
+    panel.appendChild(title);
+
+    const list = document.createElement('div');
+    availableSections.forEach((item) => {
+        const row = document.createElement('div');
+        row.textContent = `${item.key}: ${item.label}`;
+        row.style.opacity = '0.85';
+        row.style.marginBottom = '2px';
+        list.appendChild(row);
+    });
+
+    const hint = document.createElement('div');
+    hint.textContent = 'Press H to hide/show';
+    hint.style.marginTop = '6px';
+    hint.style.opacity = '0.65';
+    hint.style.fontSize = '11px';
+
+    panel.appendChild(list);
+    panel.appendChild(hint);
+    document.body.appendChild(panel);
+
+    let hasSeenPanel = false;
+    try {
+        hasSeenPanel = window.localStorage.getItem(panelSeenStorageKey) === '1';
+    } catch (error) {
+        hasSeenPanel = false;
+    }
+
+    const applyPanelVisibility = (isHidden) => {
+        panel.style.opacity = isHidden ? '0' : '1';
+        panel.style.transform = isHidden ? 'translateY(8px)' : 'translateY(0)';
+        panel.style.pointerEvents = isHidden ? 'none' : 'auto';
+    };
+
+    // Show on first-ever visit only; afterward keep hidden unless user presses H.
+    let hidden = hasSeenPanel;
+    applyPanelVisibility(hidden);
+
+    if (!hasSeenPanel) {
+        try {
+            window.localStorage.setItem(panelSeenStorageKey, '1');
+        } catch (error) {
+            // Ignore storage failures (private mode/restricted storage).
+        }
+    }
+
+    document.addEventListener('keydown', (event) => {
+        const targetTag = event.target && event.target.tagName ? event.target.tagName.toLowerCase() : '';
+        const isTypingTarget = targetTag === 'input' || targetTag === 'textarea' || Boolean(event.target && event.target.isContentEditable);
+
+        if (isTypingTarget) {
+            return;
+        }
+
+        if (event.key.toLowerCase() === 'h') {
+            hidden = !hidden;
+            applyPanelVisibility(hidden);
+            return;
+        }
+
+        const match = availableSections.find((item) => item.key === event.key);
+        if (!match) {
+            return;
+        }
+
+        const section = document.querySelector(match.selector);
+        if (!section) {
+            return;
+        }
+
+        const navHeight = navbar ? navbar.offsetHeight : 0;
+        const targetPosition = section.offsetTop - navHeight - 14;
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    });
+}
+
+function initStaggerRevealWithObserver() {
+    const targets = document.querySelectorAll('.reveal');
+    if (targets.length === 0 || !('IntersectionObserver' in window)) {
+        return;
+    }
+
+    targets.forEach((el, index) => {
+        el.style.transitionDelay = `${(index % 6) * 50}ms`;
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+                return;
+            }
+
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+        });
+    }, {
+        threshold: 0.2,
+        rootMargin: '0px 0px -40px 0px'
+    });
+
+    targets.forEach((target) => observer.observe(target));
+}
+
+function initMicroInteractions() {
+    initScrollProgressRail();
+    initPointerGlowCards();
+    initBlogCardReadTime();
+    initKeyboardShortcutsPanel();
+    initStaggerRevealWithObserver();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMicroInteractions);
+} else {
+    initMicroInteractions();
+}
 
 
 

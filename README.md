@@ -340,16 +340,6 @@ For inquiries: Contact [Aniruddha Dey](https://github.com/anirxddh)
 
 --
 
-### Developer & Designer:
-
-Feel free to support me on the respective platforms, most of them are still a work in progress for uploading and building Portfolio :D.
-
-- **GitHub**: [@anirxddh](https://github.com/anirxddh)
-- **LinkedIn**: [Aniruddha Dey](https://www.linkedin.com/in/aniruddha-dey/)
-- **X**: [Aniruddha Dey](https://x.com/anirxddh)
-- **Behance**: [Aniruddha Dey](https://www.behance.net/anirxddh)
-- **Dribble**: [Aniruddha Dey](https://dribbble.com/anirxddh)
-
 ### Small Journal for Myself:
 
 This project was what I call, my first proper full fledged commercial as well as frontend coding experience; Hours of de-bugging, asking AIs where am I doing wrong, frustrating 2 AM issues when it was just another missing bracket XD etc. This was completely traditionally coded, I decided to end up doing it manually since it was just frontend, took me weeks to finish it but finally it's done.
